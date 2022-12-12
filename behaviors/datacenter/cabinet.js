@@ -16,7 +16,7 @@ class CabinetActor {
 
 class CabinetPawn {
     setup() {
-        // the 3D object will likely not be loaded yet. 
+        // the 3D object will likely not be loaded yet.
         this.subscribe(this.id, "3dModelLoaded", "modelLoaded");
     }
 
@@ -55,7 +55,7 @@ class CabinetPawn {
         if(this.actor.dynamicCards.indexOf(obj.name) === -1){
             this.createCard({
                 name: obj.name,
-                layers: ["walk", "pointer"],
+                layers: ["pointer"],
                 singleSided: true,
                 shadow: true,
                 translation: Microverse.m4_getTranslation(m4),
@@ -85,4 +85,3 @@ export default {
         }
     ]
 }
-    

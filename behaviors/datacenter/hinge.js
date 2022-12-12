@@ -6,14 +6,33 @@ class HingeActor {
     }
 
     toggle(){
+        if (this.doorDelta !== 0)  {
+            this.doorDelta *= -1;
+        } else {
+            const speed = 0.1;
+            this.doorDelta = this.doorState === 0 ? speed : -speed;
+            this.tick();
+        }
+    }
 
-        console.log("Toggle Door")
+    tick() {
+        if (this.doorDelta !== 0){
+            this.doorState += this.doorDelta;
+            if (this.doorState < 0) { this.doorState = 0; this.doorDelta = 0; }
+            if (this.doorState > 1) { this.doorState = 1; this.doorDelta = 0; }
+
+            const rotation = Math.PI - this.doorState * Math.PI / 2;
+            const q = Microverse.q_euler(0, rotation, 0);
+            this.rotateTo(q);
+
+            if (this.doorDelta !== 0) this.future(100).tick();
+        }
     }
 }
 
 class HingePawn {
     setup() {
-        // the 3D object will likely not be loaded yet. 
+        // the 3D object will likely not be loaded yet.
         this.subscribe(this.id, "3dModelLoaded", "modelLoaded");
     }
 
@@ -39,4 +58,3 @@ export default {
         }
     ]
 }
-    
