@@ -8,7 +8,7 @@ class CabinetActor {
         if(this.dynamicCards.indexOf(cardData.name) === -1){
             this.dynamicCards.push(cardData.name); // add it here
             //cardData.parent = this; // set the parent (?)
-            console.log(cardData);
+            //console.log(cardData);
             this.createCard(cardData);
         }
     }
@@ -49,17 +49,20 @@ class CabinetPawn {
     }
 
     addDoor(obj){
-        console.log("addDoor", obj.name)
+        console.log("addDoor", obj.name);
+        let m4 = obj.matrixWorld.toArray();
+        console.log(m4);
         if(this.actor.dynamicCards.indexOf(obj.name) === -1){
             this.createCard({
                 name: obj.name,
                 layers: ["walk", "pointer"],
                 singleSided: false,
                 shadow: true,
-                translation:[0, -1.7, 0],
+                translation: Microverse.m4_getTranslation(m4),
+                //rotation: Microverse.m4_getRotation(m4),
                 type: "3d",
                 fileName: "/DC_cabinet.glb",
-                dataLocation: "./assets/3D/DC_cabinet.glb",
+                dataLocation: "./assets/3D/DC_door.glb",
                 behaviorModules: ["Hinge"],
             });
         }

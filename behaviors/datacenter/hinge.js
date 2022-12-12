@@ -12,7 +12,7 @@ class HingePawn {
 
     modelLoaded(){
         this.object = this.shape.children[0];
-console.log("Hinge", this.object)
+//console.log("Hinge", this.object)
 
        // this.listen("updateWorld", this.update);
     }
