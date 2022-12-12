@@ -1,4 +1,2 @@
 node_modules
-assets/3D/.DS_Store
-assets/.DS_Store
-behaviors/.DS_Store
+.DS_Store
