@@ -47,8 +47,10 @@ export function init(Constants) {
                 shadow: true,
                 translation:[0, -1.7, 0],
                 type: "3d",
+                modelType: "glb",
                 fileName: "/DC.glb",
-                dataLocation: "./assets/3D/DC.glb",
+                //dataLocation: "./assets/3D/DC.glb",
+                dataLocation: "3QZ4xgBvwYfOm07BCL-Gmx0mr8u5kXh72jZGbKXdAfbUOSUlISJrfn43OD00In8kIn8yIz4gJDQlfzg-fiR-KwQlJgEeKxckHgJgGjg2HAs4ZGJoKRcVFmlhY344Pn8yIz4gJDQlfzw4MiM-JzQjIjR_PT4yMD01NCc1NDcwJD0lfhYhAyMnaSA4CGMiDhVlHSMbZGgAZ2g5MiM4ARkXInw-ZhMWCTdlPyIFHgR-NTAlMH4jKTUmExAVBRcDZBsdYR5kOxo9Nws0PyIcEyIJFQMmZz81NgAiNhATAXwc",
                 behaviorModules: ["Cabinet"],
 
                 fullBright: false,

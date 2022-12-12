@@ -64,6 +64,7 @@ class BlinkinPawn {
                 this.instanceLights.setMatrixAt(index, m4);
                 index++;
             }
+        this.instanceLights.renderOrder = 1000;
         this.shape.add(this.instanceLights);
         this.instanceLights.instanceMatrix.needsUpdate = true;
     }

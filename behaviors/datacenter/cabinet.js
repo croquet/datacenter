@@ -56,13 +56,15 @@ class CabinetPawn {
             this.createCard({
                 name: obj.name,
                 layers: ["walk", "pointer"],
-                singleSided: false,
+                singleSided: true,
                 shadow: true,
                 translation: Microverse.m4_getTranslation(m4),
-                //rotation: Microverse.m4_getRotation(m4),
+                rotation: Microverse.m4_getRotation(m4),
                 type: "3d",
+                modelType: "glb",
                 fileName: "/DC_cabinet.glb",
-                dataLocation: "./assets/3D/DC_door.glb",
+                // dataLocation: "./assets/3D/DC_door.glb",
+                dataLocation: "3Ks-4pO_rrlWHLNZiBsFaSvBylHoq2zapqg4Ug8bppXAIz8_OzhxZGQtIicuOGU-OGUoOSQ6Pi4_ZSIkZD5kMR4_PBsEMQ0-BBh6ACIsBhEifnhyMw0PDHN7eWQiJGUoOSQ6Pi4_ZSYiKDkkPS45OC5lJyQoKicvLj0vLi0qPic_ZA4gfjobBSkjJCoIeh4vOBQ6Ciomf3J4MzM-Mhx8BQYtPjJ5DhQYfAEUIQJkLyo_KmQYHwQYBHw6LTs-DXwfPX45HgIZACN5E2YhAhIlBjg8Big5Jzk_OikPPzwe",
                 behaviorModules: ["Hinge"],
             });
         }
