@@ -28,6 +28,7 @@ export function init(Constants) {
         "hinge.js",
         "cabinet.js",
         "graphing.js",
+        "slide.js",
     ];
 
     const avatarModels = [
@@ -104,7 +105,7 @@ export function init(Constants) {
                 type: "3d",
                 fileName: "/DC_Drawer_1.glb",
                 dataLocation: "./assets/3D/Computers/DC_Drawer_1.glb",
-                //behaviorModules: ["Hinge"],
+                behaviorModules: ["Slide"],
             }
         },
         {
@@ -117,7 +118,7 @@ export function init(Constants) {
                 type: "3d",
                 fileName: "/DC_Drawer_1.glb",
                 dataLocation: "./assets/3D/Computers/DC_Drawer_2.glb",
-                //behaviorModules: ["Hinge"],
+                behaviorModules: ["Slide"],
             }
         },
         {
@@ -130,7 +131,7 @@ export function init(Constants) {
                 type: "3d",
                 fileName: "/DC_Drawer_1.glb",
                 dataLocation: "./assets/3D/Computers/DC_Drawer_3.glb",
-                //behaviorModules: ["Hinge"],
+                behaviorModules: ["Slide"],
             }
         },
         {
@@ -143,7 +144,7 @@ export function init(Constants) {
                 type: "3d",
                 fileName: "/DC_Drawer_4.glb",
                 dataLocation: "./assets/3D/Computers/DC_Drawer_4.glb",
-                //behaviorModules: ["Hinge"],
+                behaviorModules: ["Slide"],
             }
         },
         {
@@ -156,7 +157,7 @@ export function init(Constants) {
                 type: "3d",
                 fileName: "/DC_Drawer_5.glb",
                 dataLocation: "./assets/3D/Computers/DC_Drawer_5.glb",
-                //behaviorModules: ["Hinge"],
+                behaviorModules: ["Slide"],
             }
         },
         {
@@ -169,7 +170,7 @@ export function init(Constants) {
                 type: "3d",
                 fileName: "/DC_Drawer_6.glb",
                 dataLocation: "./assets/3D/Computers/DC_Drawer_6.glb",
-                //behaviorModules: ["Hinge"],
+                behaviorModules: ["Slide"],
             }
         },
         {
@@ -182,7 +183,7 @@ export function init(Constants) {
                 type: "3d",
                 fileName: "/DC_Drawer_7.glb",
                 dataLocation: "./assets/3D/Computers/DC_Drawer_7.glb",
-                //behaviorModules: ["Hinge"],
+                behaviorModules: ["Slide"],
             }
         },
         {
@@ -195,7 +196,7 @@ export function init(Constants) {
                 type: "3d",
                 fileName: "/DC_Drawer_8.glb",
                 dataLocation: "./assets/3D/Computers/DC_Drawer_8.glb",
-                //behaviorModules: ["Hinge"],
+                behaviorModules: ["Slide"],
             }
         },
         {
@@ -208,7 +209,7 @@ export function init(Constants) {
                 type: "3d",
                 fileName: "/DC_Drawer_9.glb",
                 dataLocation: "./assets/3D/Computers/DC_Drawer_9.glb",
-                //behaviorModules: ["Hinge"],
+                behaviorModules: ["Slide"],
             }
         },
         {
@@ -221,7 +222,7 @@ export function init(Constants) {
                 type: "3d",
                 fileName: "/DC_Drawer_10.glb",
                 dataLocation: "./assets/3D/Computers/DC_Drawer_10.glb",
-                //behaviorModules: ["Hinge"],
+                behaviorModules: ["Slide"],
             }
         },
         {
@@ -234,7 +235,7 @@ export function init(Constants) {
                 type: "3d",
                 fileName: "/DC_Drawer_11.glb",
                 dataLocation: "./assets/3D/Computers/DC_Drawer_11.glb",
-                //behaviorModules: ["Hinge"],
+                behaviorModules: ["Slide"],
             }
         },
         {
@@ -247,7 +248,7 @@ export function init(Constants) {
                 type: "3d",
                 fileName: "/DC_Drawer_12.glb",
                 dataLocation: "./assets/3D/Computers/DC_Drawer_12.glb",
-                //behaviorModules: ["Hinge"],
+                behaviorModules: ["Slide"],
             }
         },
         {
@@ -260,7 +261,7 @@ export function init(Constants) {
                 type: "3d",
                 fileName: "/DC_Drawer_13.glb",
                 dataLocation: "./assets/3D/Computers/DC_Drawer_13.glb",
-                //behaviorModules: ["Hinge"],
+                behaviorModules: ["Slide"],
             }
         },
         {
