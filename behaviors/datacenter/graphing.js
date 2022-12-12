@@ -15,8 +15,7 @@ class Values {
     }
 
     teardown() {
-        this.ticker = 0;
-        console.log("teardown ticker:", this.ticker);
+        this.ticker = 0; // stop generating values
     }
 
     length() {
@@ -49,17 +48,13 @@ class Values {
     }
 
     generateValues(ticker = 0) {
-        if (ticker === 0) {
-            this.ticker = (this.ticker || 0) + 1; // new ticker
-            console.log("new ticker:", this.ticker);
-        }
-        else if (ticker !== this.ticker) {
-            console.log("stopping old ticker:", ticker, "new ticker:", this.ticker);
-            return; // old ticker
-        }
+        if (ticker === 0) this.ticker = (this.ticker || 0) + 1; // new ticker
+        else if (ticker !== this.ticker) return; // old ticker
+
         let {min, max, tick} = this._cardData.generateValues;
         let value = Math.random() * (max - min) + min;
         this.addValue(value);
+
         if (tick > 0) this.future(tick).generateValues(this.ticker);
     }
 }
