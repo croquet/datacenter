@@ -276,7 +276,7 @@ export function init(Constants) {
         {
             card: {
                 name: "bar graph",
-                translation: [17.8, -0.7, -2],
+                translation: [17.8, -1.5, -2],
                 rotation: [0, -Math.PI / 2, 0],
                 width: 2,
                 height: 1,
@@ -284,6 +284,45 @@ export function init(Constants) {
                 generateValues: {min: 0, max: 100, tick: 100},
                 length: 20,
                 behaviorModules: ["Values", "BarGraph"],
+            }
+        },
+        {
+            card: {
+                name: "line graph",
+                translation: [17.8, -0.2, -2],
+                rotation: [0, -Math.PI / 2, 0],
+                width: 2,
+                height: 0.2,
+                color: 0xffff00,
+                generateValues: {min: 0, max: 100, tick: 100},
+                length: 20,
+                behaviorModules: ["Values", "LineGraph"],
+            }
+        },
+        {
+            card: {
+                name: "line graph",
+                translation: [17.8, 0.2, -2],
+                rotation: [0, -Math.PI / 2, 0],
+                width: 2,
+                height: 0.2,
+                color: 0x00ffff,
+                generateValues: {min: 0, max: 100, tick: 100},
+                length: 20,
+                behaviorModules: ["Values", "LineGraph"],
+            }
+        },
+        {
+            card: {
+                name: "line graph",
+                translation: [17.8, 0.6, -2],
+                rotation: [0, -Math.PI / 2, 0],
+                width: 2,
+                height: 0.2,
+                color: 0xff00ff,
+                generateValues: {min: 0, max: 100, tick: 100},
+                length: 20,
+                behaviorModules: ["Values", "LineGraph"],
             }
         },
     ];
