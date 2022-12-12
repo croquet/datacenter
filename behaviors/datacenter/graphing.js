@@ -111,6 +111,63 @@ class BarGraphPawn {
     }
 }
 
+class LineGraphPawn {
+    setup() {
+        this.constructLines();
+        this.listen("updateGraph", "updateGraph");
+        this.updateGraph();
+    }
+
+    constructLines() {
+        [...this.shape.children].forEach((c) => {
+            c.material.dispose();
+            this.shape.remove(c);
+        });
+        let len = this.actor._cardData.length;
+        let size = 1 / len;
+        let THREE = Microverse.THREE;
+        let color = this.actor._cardData.color;
+        this.base = new THREE.Mesh(
+            new THREE.BoxGeometry(1, size / 4, size, 2, 4, 2 ),
+            new THREE.MeshStandardMaterial());
+        this.base.position.set(0, -size / 4, 0);
+        this.shape.add(this.base);
+
+        const geometry = new THREE.BufferGeometry();
+        const vertices = new Float32Array( len * 3 );
+        geometry.setAttribute('position', new THREE.BufferAttribute( vertices, 3 ) );
+
+        const material = new THREE.LineBasicMaterial({
+            linewidth: 2,
+            color: color,
+        });
+
+        this.line = new THREE.Line(geometry, material);
+        this.shape.add(this.line);
+    }
+
+    updateGraph(){
+        let values = this.actor._cardData.values;
+        let len = this.actor._cardData.length;
+        let height = this.actor._cardData.height;
+        let mn = Math.min(...values);
+        let mx = Math.max(...values);
+        let range = mx - mn;
+        mn = Math.max(mn - range / 10,0);
+        range = mx - mn; //update this with the additional bit
+
+        const buffer = this.line.geometry.getAttribute('position');
+        let i = 0;
+        values.forEach((v) => {
+            let x = (0.5 + i - len / 2) / len;
+            let y = height * (v - mn) / range;
+            buffer.setXYZ(i, x, y, 0);
+            i++;
+        });
+        buffer.needsUpdate = true;
+    }
+}
+
 export default {
     modules: [
         {
@@ -120,6 +177,10 @@ export default {
         {
             name: "BarGraph",
             pawnBehaviors: [BarGraphPawn],
+        },
+        {
+            name: "LineGraph",
+            pawnBehaviors: [LineGraphPawn],
         },
     ]
 }
