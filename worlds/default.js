@@ -83,19 +83,6 @@ export function init(Constants) {
         },
         {
             card: {
-                name:"cabinet door",
-                layers: ["walk", "pointer"],
-                singleSided: false,
-                shadow: true,
-                translation:[0, -1.7, 0],
-                type: "3d",
-                fileName: "/DC_cabinet.glb",
-                dataLocation: "./assets/3D/DC_cabinet.glb",
-                behaviorModules: ["Hinge"],
-            }
-        },
-        {
-            card: {
                 name:"divider",
                 layers: ["walk", "pointer"],
                 singleSided: true,
