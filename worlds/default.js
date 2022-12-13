@@ -70,9 +70,8 @@ export function init(Constants) {
                 translation:[0, -1.7, 0],
                 type: "3d",
                 modelType: "glb",
-                fileName: "/DC.glb",
-                //dataLocation: "./assets/3D/DC.glb",
-                dataLocation: "3QZ4xgBvwYfOm07BCL-Gmx0mr8u5kXh72jZGbKXdAfbUOSUlISJrfn43OD00In8kIn8yIz4gJDQlfzg-fiR-KwQlJgEeKxckHgJgGjg2HAs4ZGJoKRcVFmlhY344Pn8yIz4gJDQlfzw4MiM-JzQjIjR_PT4yMD01NCc1NDcwJD0lfhYhAyMnaSA4CGMiDhVlHSMbZGgAZ2g5MiM4ARkXInw-ZhMWCTdlPyIFHgR-NTAlMH4jKTUmExAVBRcDZBsdYR5kOxo9Nws0PyIcEyIJFQMmZz81NgAiNhATAXwc",
+                fileName: "DC.glb",
+                dataLocation: "3jDB3fx9w3PyW3Dd7IWtCtkIStmEJUS0il1snso36tukAh4eGhlQRUUMAwYPGUQfGUQJGAUbHw8eRAMFRR9FED8eHTolECwfJTlbIQMNJzADX1lTEiwuLVJaWEUDBUQJGAUbHw8eRBoFGB4LBkQfGgYFCw5FMjooIhAYBzIFCB0wAC4mMyUDMCAEJwM_XC8kPw8eGVI8EFw-Py44KDUgP0UOCx4LRTMPPDsjGRkYLCgHBiYGEiYLIx0QGzpeX14jWVo1IC04IQw_Eh0dCwkhAwE",
                 behaviorModules: ["Cabinet"],
 
                 fullBright: false,
@@ -389,7 +388,6 @@ export function init(Constants) {
                 shadow: true,
                 singleSided: true,
                 type: "2d",
-            
             }
         }
     ];
