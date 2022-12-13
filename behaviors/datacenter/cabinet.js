@@ -49,9 +49,7 @@ class CabinetPawn {
     }
 
     addDoor(obj){
-        console.log("addDoor", obj.name);
         let m4 = obj.matrixWorld.toArray();
-        console.log(m4);
         if(this.actor.dynamicCards.indexOf(obj.name) === -1){
             this.createCard({
                 name: obj.name,

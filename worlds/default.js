@@ -279,9 +279,8 @@ export function init(Constants) {
                 name: "blinkin",
                 layers: ["pointer"],
                 translation: [0.017, -0.3955, -8.8085],
-                type: "obj",
+                type: "3d",
                 behaviorModules: ["Blinkin"],
-
             }
         },
         {
