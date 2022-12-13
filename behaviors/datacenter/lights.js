@@ -12,20 +12,23 @@ class LightPawn {
         this.removeLights();
         this.lights = [];
 
-        const ambient = new THREE.AmbientLight( 0xffffff, .2 );
+        const ambient = new THREE.AmbientLight( 0xffffff, .25 );
         group.add(ambient);
         this.lights.push(ambient);
 
-        const sun = new THREE.DirectionalLight( 0xffffff, 0.6 );
-        sun.position.set(1, 150, 4);
+        const sun = new THREE.DirectionalLight( 0xffffff, 0.3 );
+        sun.position.set(9, 150, -10);
         sun.castShadow = true;
-        sun.shadow.blurSamples = 25;
-        sun.shadow.camera.left = 25;
-        sun.shadow.camera.right = -25;
-        sun.shadow.camera.top = 25;
-        sun.shadow.camera.bottom = -25;
-        sun.shadow.mapSize.width = 1024; // default
-        sun.shadow.mapSize.height = 1024; // default
+        sun.shadow.blurSamples = 5;
+        sun.shadow.camera.left = 40;
+        sun.shadow.camera.right = -30;
+        sun.shadow.camera.top = 30;
+        sun.shadow.camera.bottom = -30;
+        sun.shadow.mapSize.width = 2048; // default
+        sun.shadow.mapSize.height = 2048; // default
+        sun.shadow.normalBias = 1e-2;
+        sun.shadow.bias = - 1e-3;
+        sun.shadow.radius = 4;
         group.add(sun);
         this.lights.push(sun);
 
