@@ -337,5 +337,61 @@ export function init(Constants) {
                 behaviorModules: ["Values", "LineGraph"],
             }
         },
+        {
+            card:{
+                name: "Hitachi Slide 2",
+                translation: [25, 1.3185008226049053, -2.3483398001257663],
+                scale: [4, 4, 4],
+                rotation: [0, -0.7037155986524168, 0, 0.7104817775377991],
+                layers: ["pointer"],
+                name: "/2.png",
+                cornerRadius: 0.02,
+                fileName: "/2.png",
+                fullBright: true,
+                modelType: "img",
+                shadow: true,
+                singleSided: true,
+                textureLocation: "366xXLAJQOyazJC6nJcbZNDbOOd3heUwP2p5PVfU1aicXkJCRkUMGRlQX1pTRRhDRRhVRFlHQ1NCGF9ZGUMZTGNCQWZ5THBDeWUHfV9Re2xfAwUPTnBycQ4GBBlfWRhVRFlHQ1NCGFtfVURZQFNERVMYWllVV1pSU0BSU1BXQ1pCGVNgbmJVBWBXWXdPQ3VRB3x6WQ9RR1JPcnJHb051d29iBV5ue3d0YGdUG1kZUldCVxlFW3l1BEFfUw5VbAFbd1RmVX5GZlRMBnxOfHxxXml9VVIFRwJ6RQRXaXNB",
+                textureType: "image",
+                type: "2d",
+            }
+        },
+        {
+            card:{
+                name: "Hitachi Slide 3",
+                translation: [25, 1.3185008226049053, -13.365795674837267],
+                scale: [4, 4, 4],
+                rotation: [0, -0.7037155986524168, 0, 0.7104817775377991],
+                layers: ["pointer"],
+                name: "/3.png",
+                cornerRadius: 0.02,
+                fileName: "/3.png",
+                fullBright: true,
+                modelType: "img",
+                shadow: true,
+                singleSided: true,
+                textureLocation: "3cm_a8ZTVZYYFqluKsTymfdWLVOrSaC1cdiF9t4ayd2gCxcXExBZTEwFCg8GEE0WEE0AEQwSFgYXTQoMTBZMGTYXFDMsGSUWLDBSKAoELjkKVlBaGyUnJFtTUUwKDE0AEQwSFgYXTQ4KABEMFQYREAZNDwwAAg8HBhUHBgUCFg8XTAY1OzcAUDUCDCIaFiAEUikvDFoEEgcaJycSOhsgIjo3UAs7LiIhNTIBTgxMBwIXAkwCUBkoNCEZUA4xLwZSVCs3OgdSIAYNLFQwMTRTAgoyUFYADwAlF1YFEjwM",
+                textureType: "image",
+                type: "2d",
+            }
+        },
+        {
+            card:{
+                name: "Croquet Logo",
+                translation: [21.15978171644854, 0.8960496870137047, -15.550058239689681],
+                scale: [2.5429154801277267, 2.5429154801277267, 2.5429154801277267],
+                rotation: [0, 0.015302457535962745, 0, 0.9998829105417094],
+                layers: ["pointer"],
+                name: "/CroquetLogo_CMYK_NoShadow.svg",
+                dataLocation: "3bPO16MiJgGtXaUdMbiHvnOOFdqysFUbovHgfv0h1TYQChYWEhFYTU0ECw4HEUwXEUwBEA0TFwcWTAsNTRdNGDcWFTItGCQXLTFTKQsFLzgLV1FbGiQmJVpSUE0LDUwBEA0TFwcWTA8LARANFAcQEQdMDg0BAw4GBxQGBwQDFw4WTVZVBiMsAC0xCxs9KDI1EBIVNhUyAC4nKU9bOBU6OCwVDU8LEiYmMy0gLzdNBgMWA00nVDQVEDNWAxMBLiYVVRcaFwcbMRIONQ4LLQoYKlooCgUjJS4AExMAWzcr",
+                fileName: "/CroquetLogo_CMYK_NoShadow.svg",
+                fullBright: true,
+                modelType: "svg",
+                shadow: true,
+                singleSided: true,
+                type: "2d",
+            
+            }
+        }
     ];
 }
