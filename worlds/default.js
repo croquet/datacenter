@@ -71,7 +71,7 @@ export function init(Constants) {
                 type: "3d",
                 modelType: "glb",
                 fileName: "DC.glb",
-                dataLocation: "3jDB3fx9w3PyW3Dd7IWtCtkIStmEJUS0il1snso36tukAh4eGhlQRUUMAwYPGUQfGUQJGAUbHw8eRAMFRR9FED8eHTolECwfJTlbIQMNJzADX1lTEiwuLVJaWEUDBUQJGAUbHw8eRBoFGB4LBkQfGgYFCw5FMjooIhAYBzIFCB0wAC4mMyUDMCAEJwM_XC8kPw8eGVI8EFw-Py44KDUgP0UOCx4LRTMPPDsjGRkYLCgHBiYGEiYLIx0QGzpeX14jWVo1IC04IQw_Eh0dCwkhAwE",
+                dataLocation: "3a0poNCqMTMiZJj_csciH86ZU12t7FrdySFUX6Lq30qUCRUVERJbTk4HCA0EEk8UEk8CEw4QFAQVTwgOThROGzQVFjEuGycULjJQKggGLDsIVFJYGSclJllRU04IDk8CEw4QFAQVTxEOExUADU8UEQ0OAAVOOTEjKRsTDDkOAxY7CyUtOC4IOysPLAg0VyQvNAQVElk3G1c1NCUzIz4rNE4FABUATioROCAGJy0qIhYjLjYSGTYzAgcwOAMYFT4MUQAMDRNMUDYMBQUnFwonCiA",
                 behaviorModules: ["Cabinet"],
 
                 fullBright: false,
