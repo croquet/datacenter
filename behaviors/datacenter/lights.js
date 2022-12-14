@@ -1,6 +1,5 @@
 class LightPawn {
     setup() {
-        console.log("LightPawn");
         /*
           let trm = this.service("ThreeRenderManager");
           let scene =  trm.scene;
