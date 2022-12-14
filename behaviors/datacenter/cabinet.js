@@ -22,7 +22,7 @@ class CabinetPawn {
 
     modelLoaded(){
         this.object = this.shape.children[0];
-        console.log("Cabinet", this.object)
+        // console.log("Cabinet", this.object)
         this.object.traverse((obj) => {
             if(typeof obj.name === 'string'){
                 if(obj.name.search("Red")>=0){
@@ -49,9 +49,7 @@ class CabinetPawn {
     }
 
     addDoor(obj){
-        console.log("addDoor", obj.name);
         let m4 = obj.matrixWorld.toArray();
-        console.log(m4);
         if(this.actor.dynamicCards.indexOf(obj.name) === -1){
             this.createCard({
                 name: obj.name,
