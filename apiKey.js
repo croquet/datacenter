@@ -1,3 +1,3 @@
-const apiKey = '1jEqgfhG0l5LikaNeFiLxFK6iFm5CbIyjM0KhkFLn';
+const apiKey = '1rN7t58Mo1ani03Djcl4amvdEAnoitB6g3oNxEDrC';
 const appId = 'io.croquet.datacenter';
 export default  {apiKey, appId};
