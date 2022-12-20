@@ -376,44 +376,6 @@ export function init(Constants) {
         },
         {
             card:{
-                name: "Slide 2",
-                translation: [25, 1.3185008226049053, -2.3483398001257663],
-                scale: [4, 4, 4],
-                rotation: [0, -0.7037155986524168, 0, 0.7104817775377991],
-                layers: ["pointer"],
-                name: "/2.png",
-                cornerRadius: 0.02,
-                fileName: "/2.png",
-                fullBright: true,
-                modelType: "img",
-                shadow: true,
-                singleSided: true,
-                textureLocation: "30y-uriOSi2z06GViVKHsuCF-SPxzBAxd29NGL3CyWisWEREQEMKHx9WWVxVQx5FQx5TQl9BRVVEHllfH0UfSmVER2B_SnZFf2MBe1lXfWpZBQMJSHZ0dwgAAh9ZXx5TQl9BRVVEHkBfQkRRXB5FQFxfUVQfREp6eltIBVRcc2pfe1gEXkR_QUVJVUV7f3J0QXxYW3FpRWp-SVcBSn15Wx9UUURRH1NnVVl7VWBJc0JifQhjZwVySHYGZ2pBcnR2BXxAcV5idUNEdFpTAAVjZFM",
-                textureType: "image",
-                type: "2d",
-            }
-        },
-        {
-            card:{
-                name: "Slide 3",
-                translation: [25, 1.3185008226049053, -12.74605102684482],
-                scale: [4, 4, 4],
-                rotation: [0, -0.7037155986524168, 0, 0.7104817775377991],
-                layers: ["pointer"],
-                name: "/3.png",
-                cornerRadius: 0.02,
-                fileName: "/3.png",
-                fullBright: true,
-                modelType: "img",
-                shadow: true,
-                singleSided: true,
-                textureLocation: "3cm_a8ZTVZYYFqluKsTymfdWLVOrSaC1cdiF9t4ayd2gCxcXExBZTEwFCg8GEE0WEE0AEQwSFgYXTQoMTBZMGTYXFDMsGSUWLDBSKAoELjkKVlBaGyUnJFtTUUwKDE0AEQwSFgYXTQ4KABEMFQYREAZNDwwAAg8HBhUHBgUCFg8XTAY1OzcAUDUCDCIaFiAEUikvDFoEEgcaJycSOhsgIjo3UAs7LiIhNTIBTgxMBwIXAkwCUBkoNCEZUA4xLwZSVCs3OgdSIAYNLFQwMTRTAgoyUFYADwAlF1YFEjwM",
-                textureType: "image",
-                type: "2d",
-            }
-        },
-        {
-            card:{
                 name: "Croquet Logo",
                 translation: [21.15978171644854, 0.8960496870137047, -15.550058239689681],
                 scale: [2.5429154801277267, 2.5429154801277267, 2.5429154801277267],
