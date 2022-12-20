@@ -17,13 +17,7 @@ fi
 HERE=`pwd`
 (cd ${MICROVERSE}/dist && INIT_CWD=$HERE node install.js)
 
-# # fix it up
+# remove unused files
 
-# INDEX=`echo lib/index*.js`
-# echo $INDEX
-
-# sed -i .tmp 's%lib/index.*.js%'${INDEX}'%' v1.js
-# rm v1.js.tmp
-
-# rm -rf index.html worlds/ assets/avatars/ apiKey.js-example
+rm -r apiKey.js-example assets/avatars behaviors/default
 
