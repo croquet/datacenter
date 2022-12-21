@@ -7,20 +7,15 @@ class SlideActor {
     }
 
     toggle(){
-        if(!this.isSliding){
+        if (!this.isSliding) {
             this.isSliding = true;
-            this.doSliding(this.isOpen?0.07:-0.07, 0);
-            console.log("Toggle Computer")
+            this.doSliding(this.isOpen ? 0.07 : -0.07, 10);
         }
-        else console.log("Can't toggle")
     }
 
     doSliding(delta, count){
-        this.translateTo([
-            this.translation[0],
-            this.translation[1],
-            this.translation[2] + delta]);
-        if(count<10)this.future(50).doSliding(delta, count+1);
+        this.translateBy(delta);
+        if (count > 0) this.future(50).doSliding(delta, count - 1);
         else {
             this.isSliding = false;
             this.isOpen = !this.isOpen;
@@ -30,7 +25,7 @@ class SlideActor {
 
 class SlidePawn {
     setup() {
-        // the 3D object will likely not be loaded yet. 
+        // the 3D object will likely not be loaded yet.
         this.subscribe(this.id, "3dModelLoaded", "modelLoaded");
     }
 
@@ -58,4 +53,3 @@ export default {
         }
     ]
 }
-    
