@@ -1,16 +1,22 @@
 class CabinetActor {
     setup(){
-        this.dynamicCards = [];
         this.listen("createCard", this.doCreateCard);
     }
 
     doCreateCard(cardData){
-        if(this.dynamicCards.indexOf(cardData.name) === -1){
-            this.dynamicCards.push(cardData.name); // add it here
-            //cardData.parent = this; // set the parent (?)
-            //console.log(cardData);
+        if (!this.cardExists(cardData.name)) {
             this.createCard(cardData);
         }
+    }
+
+    cardExists(cardName) {
+        let actorManager = this.service("ActorManager");
+        for (let actor of actorManager.actors.values()) {
+            if (actor.name === cardName) {
+                return true;
+            }
+        }
+        return false;
     }
 }
 
@@ -49,8 +55,8 @@ class CabinetPawn {
     }
 
     addDoor(obj){
-        let m4 = obj.matrixWorld.toArray();
-        if(this.actor.dynamicCards.indexOf(obj.name) === -1){
+        if (!this.cardExists(obj.name)) {
+            let m4 = obj.matrixWorld.toArray();
             this.createCard({
                 name: obj.name,
                 layers: ["pointer"],
@@ -66,6 +72,10 @@ class CabinetPawn {
                 behaviorModules: ["Hinge"],
             });
         }
+    }
+
+    cardExists(cardName) {
+        return this.actorCall("CabinetActor", "cardExists", cardName);
     }
 
     createCard(cardDef){
