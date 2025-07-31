@@ -32,12 +32,12 @@ export function init(Constants) {
     ];
 
     const avatarModels = [
-        "3kDNEN2jKhiPYcYAfItpXCcaahDmYM54K-kP6mKb_x8AAx8fGxhRREQNAgcOGEUeGEUIGQQaHg4fRQIERB5ELA89CRIHIhgqADoIKTMPWCwTCh0SHD4gPDIyWUQCBEUIGQQaHg4fRQYCCBkEHQ4ZGA5EEgMHOzsPIC46GCoaMxsfOjwhBCIuWxM8XzwZHjpfND8JIw4cBQ8oXi8lOkQPCh8KRD0aDSQSEjkvICQ5BQM6Xi1GHhk9OglGOAcDBw0CHAEYD1wkKR0PITNGDBg",
-        "3qPM9OnJ8B8G-bx-DZtT_uk55iJ-4seqH4D_N7XJcmxMGQUFAQJLXl4XGB0UAl8EAl8SAx4ABBQFXxgeXgReNhUnEwgdOAIwGiASMykVQjYJEAcIBiQ6JigoQ14YHl8SAx4ABBQFXxwYEgMeBxQDAhReCBkdISEVOjQgAjAAKQEFICY7Hjg0QQkmRSYDBCBFLiUTORQGHxUyRDU_IF4VEAUQXjwFBSNHOj4rAgIbNz8COSEnFTUFCD4gJD4gKTIkRQZEGi42CRQAKDk8MAY",
-        "3pOqrArMCIRUilNQ5kh5jDQpDI9rMSWBMf3S8zPNUX4gGAQEAANKX18WGRwVA14FA14TAh8BBRUEXhkfXwVfNxQmEgkcOQMxGyETMigUQzcIEQYJByU7JykpQl8ZH14TAh8BBRUEXh0ZEwIfBhUCAxVfCRgcICAUOzUhAzEBKAAEISc6Hzk1QAgnRCcCBSFELyQSOBUHHhQzRTQ-IV8UEQQRXxEIHEcpEkc-IDIKSDRIFgo7RwdJNUM_Ej4-FyhGChwfPD1DM0QIMSAcNjE",
-        "3YrnwoVTORoxhAZDdVvJXzOO62FQKMuP7C2JaVRcRhXMMS0tKSpjdnY_MDU8KncsKnc6KzYoLDwtdzA2dix2Hj0POyA1ECoYMgg6GwE9ah4hOC8gLgwSDgAAa3YwNnc6KzYoLDwtdzQwOis2LzwrKjx2IDE1CQk9EhwIKhgoASktCA4TNhAcaSEObQ4rLAhtBg07ETwuNz0abB0XCHY9OC04dhg4FmA1Dho2KBNhGGh0YSg1ETcqDhoDNy07OGgJODMbHD4JHTNoMhFoPDI",
-        "3B45okYnR2Z096wkAU7ACqQg7iGeh5lcva8FNB-RZ-sgKjY2MjF4bW0kKy4nMWw3MWwhMC0zNyc2bCstbTdtBSYUIDsuCzEDKRMhABomcQU6IzQ7NRcJFRsbcG0rLWwhMC0zNyc2bC8rITAtNCcwMSdtOyouEhImCQcTMQMzGjI2ExUILQsHcjoVdhUwNxN2HRYgCic1LCYBdwYME20mIzYjbRc1BHcpdQcrIDsWBDs6ehY2Eht2Fxd6cBAxKCUzNnMQHRgUCggKcAUgHQ8",
-        "3qPM9OnJ8B8G-bx-DZtT_uk55iJ-4seqH4D_N7XJcmxMGQUFAQJLXl4XGB0UAl8EAl8SAx4ABBQFXxgeXgReNhUnEwgdOAIwGiASMykVQjYJEAcIBiQ6JigoQ14YHl8SAx4ABBQFXxwYEgMeBxQDAhReCBkdISEVOjQgAjAAKQEFICY7Hjg0QQkmRSYDBCBFLiUTORQGHxUyRDU_IF4VEAUQXjwFBSNHOj4rAgIbNz8COSEnFTUFCD4gJD4gKTIkRQZEGi42CRQAKDk8MAY",
+        "3QwxZSadrDaipHOmMNlb3meCdsvAinaWkoz-frFjuYvoOSUlISJrfn43OD00Inw0PzA8fzwkPSU4Iig_IH84Pn4kfgU5NAY5OCU0AzAzMzglfjg-fzwkPSU4Iig_IH81MCUwOTA_NT00fDI-ITg0I35iCTlhEw5jMwc7fB8GCxZ8PSMZKyY0aRcFKQkcNzYOOQQfFD0OEmNlPiUQfjUwJTB-MjIcIT42BwNnMBwZPmkXEhw9MCUGPxwEGQEUG2kBZzAQaQUIMz4bAD48Mg",
+        "3-jRk8oohqmwFy0Q-zgUpGV8AmdIUnprdWr4v2MOzWgoQ19fW1gRBARNQkdOWAZORUpGBUZeR19CWFJFWgVCRAReBH9DTnxDQl9OeUpJSUJfBEJEBUZeR19CWFJFWgVPSl9KQ0pFT0dOBkhEW0JOWQQYc0MbaXQZSX1BBmV8cWwGR1ljUVxOE21_U3NmTUx0Q35lbkd0aBkfRF9qBE9KX0oEbXtdYkZhYH14Y3h5e2waehodW0ZkQH15QUkfTBtofltkE2JPSUJYYHtifg",
+        "3xePaLMJK1PgqCXiBDiKuW0BmsE2SVwMYuyKcTisIh0oEAwMCAtCV1ceERQdC1UdFhkVVhUNFAwRCwEWCVYRF1cNVywQHS8QEQwdKhkaGhEMVxEXVhUNFAwRCwEWCVYcGQwZEBkWHBQdVRsXCBEdCldLIBBIOidKGi4SVTYvIj9VFAowAg8dQD4sACA1Hh8nEC02PRQnO0pMFww5VxwZDBlXPQggLDkzHyouVRYsD1UzFxMqAQoPDkwfPhcxGhZMKQkyGwBJQQI3OhYiPQ",
+        "3-0aVaCHBOv-E082e6aE6k42g_DUrRqMYGBgDDGKeagMQ19fW1gRBARNQkdOWAZORUpGBUZeR19CWFJFWgVCRAReBH9DTnxDQl9OeUpJSUJfBEJEBUZeR19CWFJFWgVPSl9KQ0pFT0dOBkhEW0JOWQQYc0MbaXQZSX1BBmV8cWwGR1ljUVxOE21_U3NmTUx0Q35lbkd0aBkfRF9qBE9KX0oEdHFnTRwdZBJTQxgTbE5mSH1lZXFfQ0FsaWBoZ0pBZEJnUwZiG2xIemRReg",
+        "3P0kzCoVonJK0dAoW_9s4HbOVJ8bj88IYjsWc-Z-zNhUOCQkICNqf382OTw1I301PjE9fj0lPCQ5Iyk-IX45P38lfwQ4NQc4OSQ1AjEyMjkkfzk_fj0lPCQ5Iyk-IX40MSQxODE-NDw1fTM_IDk1In9jCDhgEg9iMgY6fR4HChd9PCIYKic1aBYEKAgdNjcPOAUeFTwPE2JkPyQRfzQxJDF_OH0cPxcWHBs-Bx4TZxwzIRYjKiVlYSMpKjEPNSRoZiMfKGERKDN9IREDBQ",
+        "3-jRk8oohqmwFy0Q-zgUpGV8AmdIUnprdWr4v2MOzWgoQ19fW1gRBARNQkdOWAZORUpGBUZeR19CWFJFWgVCRAReBH9DTnxDQl9OeUpJSUJfBEJEBUZeR19CWFJFWgVPSl9KQ0pFT0dOBkhEW0JOWQQYc0MbaXQZSX1BBmV8cWwGR1ljUVxOE21_U3NmTUx0Q35lbkd0aBkfRF9qBE9KX0oEbXtdYkZhYH14Y3h5e2waehodW0ZkQH15QUkfTBtofltkE2JPSUJYYHtifg",
     ];
 
     Constants.AvatarNames = avatarModels.map((dataLocation, i) => ({
@@ -71,7 +71,7 @@ export function init(Constants) {
                 type: "3d",
                 modelType: "glb",
                 fileName: "DC.glb",
-                dataLocation: "3a0poNCqMTMiZJj_csciH86ZU12t7FrdySFUX6Lq30qUCRUVERJbTk4HCA0EEk8UEk8CEw4QFAQVTwgOThROGzQVFjEuGycULjJQKggGLDsIVFJYGSclJllRU04IDk8CEw4QFAQVTxEOExUADU8UEQ0OAAVOOTEjKRsTDDkOAxY7CyUtOC4IOysPLAg0VyQvNAQVElk3G1c1NCUzIz4rNE4FABUATioROCAGJy0qIhYjLjYSGTYzAgcwOAMYFT4MUQAMDRNMUDYMBQUnFwonCiA",
+                dataLocation: "3n6X0oAPu71LSUXd7bNoULKMuHLamklolNghOrUVN53wBhoaHh1UQUEIBwILHUMLAA8DQAMbAhoHHRcAH0AHAUEbQToGCzkGBxoLPA8MDAcaQQcBQAMbAhoHHRcAH0AKDxoPBg8ACgILQw0BHgcLHEFdNgZeLDFcDDgEQyA5NClDAhwmFBkLVig6FjYjCAkxBjsgKwIxLVxaARovQQoPGg9BFCAAMTwNJzsNIBg9IhoFGwtWCBk4WB4bDAtaASY8FFg4Ozg9MTg2GhkBGQ",
                 behaviorModules: ["Cabinet"],
 
                 fullBright: false,
@@ -374,60 +374,79 @@ export function init(Constants) {
                 parent: "linegraphs",
             },
         },
-        {
-            card:{
-                name: "Hitachi Slide 2",
-                translation: [25, 1.3185008226049053, -2.3483398001257663],
-                scale: [4, 4, 4],
-                rotation: [0, -0.7037155986524168, 0, 0.7104817775377991],
-                layers: ["pointer"],
-                name: "/2.png",
-                cornerRadius: 0.02,
-                fileName: "/2.png",
-                fullBright: true,
-                modelType: "img",
-                shadow: true,
-                singleSided: true,
-                textureLocation: "366xXLAJQOyazJC6nJcbZNDbOOd3heUwP2p5PVfU1aicXkJCRkUMGRlQX1pTRRhDRRhVRFlHQ1NCGF9ZGUMZTGNCQWZ5THBDeWUHfV9Re2xfAwUPTnBycQ4GBBlfWRhVRFlHQ1NCGFtfVURZQFNERVMYWllVV1pSU0BSU1BXQ1pCGVNgbmJVBWBXWXdPQ3VRB3x6WQ9RR1JPcnJHb051d29iBV5ue3d0YGdUG1kZUldCVxlFW3l1BEFfUw5VbAFbd1RmVX5GZlRMBnxOfHxxXml9VVIFRwJ6RQRXaXNB",
-                textureType: "image",
-                type: "2d",
-            }
-        },
-        {
-            card:{
-                name: "Hitachi Slide 3",
-                translation: [25, 1.3185008226049053, -12.74605102684482],
-                scale: [4, 4, 4],
-                rotation: [0, -0.7037155986524168, 0, 0.7104817775377991],
-                layers: ["pointer"],
-                name: "/3.png",
-                cornerRadius: 0.02,
-                fileName: "/3.png",
-                fullBright: true,
-                modelType: "img",
-                shadow: true,
-                singleSided: true,
-                textureLocation: "3cm_a8ZTVZYYFqluKsTymfdWLVOrSaC1cdiF9t4ayd2gCxcXExBZTEwFCg8GEE0WEE0AEQwSFgYXTQoMTBZMGTYXFDMsGSUWLDBSKAoELjkKVlBaGyUnJFtTUUwKDE0AEQwSFgYXTQ4KABEMFQYREAZNDwwAAg8HBhUHBgUCFg8XTAY1OzcAUDUCDCIaFiAEUikvDFoEEgcaJycSOhsgIjo3UAs7LiIhNTIBTgxMBwIXAkwCUBkoNCEZUA4xLwZSVCs3OgdSIAYNLFQwMTRTAgoyUFYADwAlF1YFEjwM",
-                textureType: "image",
-                type: "2d",
-            }
-        },
-        {
-            card:{
-                name: "Croquet Logo",
-                translation: [21.15978171644854, 0.8960496870137047, -15.550058239689681],
-                scale: [2.5429154801277267, 2.5429154801277267, 2.5429154801277267],
-                rotation: [0, 0.015302457535962745, 0, 0.9998829105417094],
-                layers: ["pointer"],
-                name: "/CroquetLogo_CMYK_NoShadow.svg",
-                dataLocation: "3bPO16MiJgGtXaUdMbiHvnOOFdqysFUbovHgfv0h1TYQChYWEhFYTU0ECw4HEUwXEUwBEA0TFwcWTAsNTRdNGDcWFTItGCQXLTFTKQsFLzgLV1FbGiQmJVpSUE0LDUwBEA0TFwcWTA8LARANFAcQEQdMDg0BAw4GBxQGBwQDFw4WTVZVBiMsAC0xCxs9KDI1EBIVNhUyAC4nKU9bOBU6OCwVDU8LEiYmMy0gLzdNBgMWA00nVDQVEDNWAxMBLiYVVRcaFwcbMRIONQ4LLQoYKlooCgUjJS4AExMAWzcr",
-                fileName: "/CroquetLogo_CMYK_NoShadow.svg",
-                fullBright: true,
-                modelType: "svg",
-                shadow: true,
-                singleSided: true,
-                type: "2d",
-            }
-        }
+        // {
+        //     card:{
+        //         name: "Slide 2",
+        //         translation: [25, 1.3185008226049053, -2.3483398001257663],
+        //         scale: [4, 4, 4],
+        //         rotation: [0, -0.7037155986524168, 0, 0.7104817775377991],
+        //         layers: ["pointer"],
+        //         name: "/2.png",
+        //         cornerRadius: 0.02,
+        //         fileName: "/2.png",
+        //         fullBright: true,
+        //         modelType: "img",
+        //         shadow: true,
+        //         singleSided: true,
+        //         textureLocation: "3SLFA7Y_DNk4-LBsdVqmv34h6Jmnx1Rc3LI05iCLpp1sOycnIyBpfHw1Oj82IH42PTI-fT4mPyc6ICo9In06PHwmfAc7NgQ7Oic2ATIxMTonfDo8fT4mPyc6ICo9In03MicyOzI9Nz82fjA8Izo2IXxgCztjEQxhMQU5fh0ECRR-PyEbKSQ2axUHKwseNTQMOwYdFj8MEGFnPCcSfDcyJzJ8YgQjAiomZWI6PiYnNjgyOD4HZB4mYH4ZPjc8EiEePSNnNTglBSsWFwQ-aw",
+        //         textureType: "image",
+        //         type: "2d",
+        //     }
+        // },
+        // {
+        //     card:{
+        //         name: "Slide 3",
+        //         translation: [25, 1.3185008226049053, -12.74605102684482],
+        //         scale: [4, 4, 4],
+        //         rotation: [0, -0.7037155986524168, 0, 0.7104817775377991],
+        //         layers: ["pointer"],
+        //         name: "/3.png",
+        //         cornerRadius: 0.02,
+        //         fileName: "/3.png",
+        //         fullBright: true,
+        //         modelType: "img",
+        //         shadow: true,
+        //         singleSided: true,
+        //         textureLocation: "3ATIzV9VxEysMqH42gf7DWkswGa5h0F8sROSp3O16kUcKTU1MTJ7bm4nKC0kMmwkLyAsbyw0LTUoMjgvMG8oLm40bhUpJBYpKDUkEyAjIyg1bigubyw0LTUoMjgvMG8lIDUgKSAvJS0kbCIuMSgkM25yGSlxAx5zIxcrbA8WGwZsLTMJOzYkeQcVORkMJyYeKRQPBC0eAnN1LjUAbiUgNSBuCQRyCzQUDAU0Imw3EQAwJTYJNCd0Bi9sIw4rKS45AAo2FQA1ERtsBhh3eQ",
+        //         textureType: "image",
+        //         type: "2d",
+        //     }
+        // },
+        // {
+        //     card:{
+        //         name: "Croquet Logo",
+        //         translation: [21.15978171644854, 0.8960496870137047, -15.550058239689681],
+        //         scale: [2.5429154801277267, 2.5429154801277267, 2.5429154801277267],
+        //         rotation: [0, 0, 0, 1],
+        //         layers: ["pointer"],
+        //         name: "/CroquetLogo_CMYK_NoShadow.svg",
+        //         dataLocation: "3DR_fq6Getf4oBu4-ktEsV6x9wzycLXLtXFloQ7SsY2ULDAwNDd-a2siLSghN2khKiUpaikxKDAtNz0qNWotK2sxaxAsIRMsLTAhFiUmJi0way0raikxKDAtNz0qNWogJTAlLCUqICghaScrNC0hNmt3HCx0Bht2JhIuaQoTHgNpKDYMPjMhfAIQPBwJIiMbLBEKASgbB3ZwKzAFayAlMCVrBhcmByU-ATMbChEJDRIUaRAIc3Q3HDwGcwktdz4qMzx8KxQKKj0BLyt0Mw",
+        //         fileName: "/CroquetLogo_CMYK_NoShadow.svg",
+        //         fullBright: true,
+        //         modelType: "svg",
+        //         shadow: true,
+        //         singleSided: true,
+        //         type: "2d",
+        //     }
+        // },
+        // {
+        //     card:{
+        //         name: "Multisynq Logo",
+        //         translation: [21, 1.5, -15.5],
+        //         scale: [2, 2, 2],
+        //         rotation: [0, 0, 0, 1],
+        //         layers: ["pointer"],
+        //         name: "/multisynq.png",
+        //         cornerRadius: 0.1,
+        //         fileName: "/multisynq.png",
+        //         fullBright: true,
+        //         modelType: "img",
+        //         shadow: true,
+        //         singleSided: true,
+        //         textureLocation: "3PYiMZUiL5XbgQ4ebqF31fcNy4WhB0lhQiepxHhZjca4OCQkICNqf382OTw1I301PjE9fj0lPCQ5Iyk-IX45P38lfwQ4NQc4OSQ1AjEyMjkkfzk_fj0lPCQ5Iyk-IX40MSQxODE-NDw1fSUgPD8xNDUifxhoHRgiOT08IB4aGicSYTMBOiA7A30kHB0pBjkFY2EyMh4FGTszKhEHCh1_NDEkMX8WEiAfZ2EXaSQDYgcKKCUdODsBaSYlDzxoKhUACAppZghpJH0YOD0FKCA3",
+        //         textureType: "image",
+        //         type: "2d",
+        //     }
+        // },
     ];
 }
