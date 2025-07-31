@@ -103,7 +103,7 @@ class GizmoActor {
 
         let t = this.closestCorner(this.creatorId);
 
-        this.dataLocation = "3ryPlwPIvSHXjABwnuJjrMQYPp1JH2OnghLGR_cdAbCEGgYGAgFIXV0UGx4XAVwHAVwRAB0DBxcGXBsdXQddNRYkEAseOwEzGSMRMCoWQTUKEwQLBSc5JSsrQF0bHVwRAB0DBxcGXB8bEQAdBBcAARddBRckQ0E8AEUcRwABPTExOhMCHEMeNENFIAglOitFNBg0OjNGPiYQIl81Sl0WEwYTXUMeCgYrHDc7HkECPScbJxYKOSE6RCgXK0YgFwYgCzAYPioRCkEkAEYVLRU";
+        this.dataLocation = "3m-WyOAqL4CG18DoY-tvQL-fZ4lcFY0kAQszSwZNrMjUBRkZHR5XQkILBAEIHkAIAwwAQwAYARkEHhQDHEMEAkIYQjkFCDoFBBkIPwwPDwQZQgQCQwAYARkEHhQDHEMJDBkMBQwDCQEIQA4CHQQIH0JeNQVdLzJfDzsHQCM6NypAAR8lFxoIVSs5FTUgCwoyBTgjKAEyLl9ZAhksQgkMGQxCWAhaOzwHOTc5HVQFCV4lOl4MCAJYPz0fBDsJVS8vF1UaQAwVDyUBOys8KA";
 
         this.propertySheetButton = this.createCard({
             name: "property sheet button",
